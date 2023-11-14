@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+.App {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.conversations {
+  width: 30%;
+  height: 100vh;
+  background-color: #09181D;
+  color: white;
+}
+
+.messageContainer {
+  width: 70%;
+  background-image: url('./background.jpeg');
+  height: 100vh;
+}
+
+.profilePic {
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.conversationCard {
+  display: flex;
+  align-items: center;
+}
+
+.contactInfo {
+  background-color: #23323A;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.messageBlock p {
+  margin: 15px;
+  background-color: #289659;
+  padding: 10px 5px;
+  border-radius: 25%;
+}
+
+.messageInputContainer {
+  width: 70%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #23323A;
+}
+
+.messageInput {
+  width: 90%;
+  border: 0;
+  padding: 1%;
+}
+
+.sendBtn {
+  background-color: #289659;
+  border: 0;
+}
+
+.conversationListHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.newConvBtn {
+  background-color: #289659;
+  border: 0;
+}
+
+.newConvModal {
+  background-color: #24333D;
+  width: 30%;
+  height: 50%;
+  padding: 20px;
+  border-radius: 5%;
+  align-items: center;
+  margin: 10% 35%;
+  overflow: scroll;
+}
+
+.newConvCard {
+  display: flex;
+  align-items: center;
+}
+
+.searchConvInput {
+  width: 90%;
+  margin: 5%;
+  border: 0;
+  padding: 1%;
+}
